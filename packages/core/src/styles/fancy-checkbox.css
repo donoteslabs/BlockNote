@@ -1,0 +1,59 @@
+
+.bn-block input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: #3331;
+    border: 1px solid #ccc;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.bn-block input[type="checkbox"]:checked {
+background-color: rgb(100 116 139);
+}
+.bn-block[data-text-color="red"] input[type="checkbox"]:checked {
+background-color: rgb(239 68 68);
+}
+.bn-block[data-text-color="orange"] input[type="checkbox"]:checked {
+background-color: rgb(249 115 22);
+}
+.bn-block[data-text-color="yellow"] input[type="checkbox"]:checked {
+background-color: rgb(251 191 36);
+}
+.bn-block[data-text-color="green"] input[type="checkbox"]:checked {
+background-color: rgb(16 185 129);
+}
+.bn-block[data-text-color="blue"] input[type="checkbox"]:checked {
+background-color: rgb(14 165 233);
+}
+.bn-block[data-text-color="purple"] input[type="checkbox"]:checked {
+background-color: rgb(99 102 241);
+}
+.bn-block[data-text-color="pink"] input[type="checkbox"]:checked {
+background-color:  rgb(217 70 239);
+}
+  
+.bn-block input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    clip-path: inset(100% 0 0 0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-check"><path d="M18 6 7 17l-5-5"/><path d="m22 10-7.5 7.5L13 16"/></svg>');
+    border-radius: 2px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bn-block input[type="checkbox"]:checked::before {
+    clip-path: inset(0 0 0 0);
+  }
+  
+  .bn-block input[type="checkbox"]:hover::before {
+    clip-path: inset(0 0 0 0);
+  }
