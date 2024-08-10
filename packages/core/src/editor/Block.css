@@ -379,36 +379,32 @@ NESTED BLOCKS
   color: #9b9a97;
 }
 
-[data-text-color="brown"] {
-  color: #64473a;
+[data-color="red"] {
+  color: #fb7185;
 }
 
-[data-text-color="red"] {
-  color: #e03e3e;
+[data-color="orange"] {
+  color: #fdba74;
 }
 
-[data-text-color="orange"] {
-  color: #d9730d;
+[data-color="yellow"] {
+  color: #e7de61;
 }
 
-[data-text-color="yellow"] {
-  color: #dfab01;
+[data-color="green"] {
+  color: #a7cb65;
 }
 
-[data-text-color="green"] {
-  color: #4d6461;
+[data-color="blue"] {
+  color: #84dfe9;
 }
 
-[data-text-color="blue"] {
-  color: #0b6e99;
+[data-color="purple"] {
+  color: #a5b4fc;
 }
 
-[data-text-color="purple"] {
-  color: #6940a5;
-}
-
-[data-text-color="pink"] {
-  color: #ad1a72;
+[data-color="pink"] {
+  color: #fca4e0;
 }
 
 /* BACKGROUND COLORS */
@@ -416,36 +412,32 @@ NESTED BLOCKS
   background-color: #ebeced;
 }
 
-[data-background-color="brown"] {
-  background-color: #e9e5e3;
-}
-
 [data-background-color="red"] {
-  background-color: #fbe4e4;
+  background-color: #fb7185;
 }
 
 [data-background-color="orange"] {
-  background-color: #faebdd;
+  background-color: #fdba74;
 }
 
 [data-background-color="yellow"] {
-  background-color: #fbf3db;
+  background-color: #e7de61;
 }
 
 [data-background-color="green"] {
-  background-color: #ddedea;
+  background-color: #a7cb65;
 }
 
 [data-background-color="blue"] {
-  background-color: #ddebf1;
+  background-color: #84dfe9;
 }
 
 [data-background-color="purple"] {
-  background-color: #eae4f2;
+  background-color: #a5b4fc;
 }
 
 [data-background-color="pink"] {
-  background-color: #f4dfeb;
+  background-color: #fca4e0;
 }
 
 /* TEXT ALIGNMENT */
